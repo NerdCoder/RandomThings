@@ -1,17 +1,8 @@
-from pathlib import Path
+from lib import multi_downloader
+from argparse import ArgumentParser
 
-def show_features():
-    print("")
+def showFeatures():
+    pass
 
-if __name__ == '__main__':
-    show_features()
-
-#TODO
-"""
-add features ->
-    *organizing files
-    *sdb install all tpks
-maybe argparser?
-pip-like packaging ??
-
-"""
+if __name__ == "__main__":
+    showFeatures()
